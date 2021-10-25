@@ -1,0 +1,32 @@
+{
+    "name": "milerdark",
+    "displayName": "milerdark",
+    "description": "comfortable, easy on the eyes",
+    "publisher": "milerdev",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "icon": "icons/milerdark-vsc-icon.png",
+    "author": {
+        "name": "Patiphan Phengpao",
+        "email": "misterpatipan123@gmail.com",
+        "url": "https://www.youtube.com/channel/UCeKE6wQHTt5JpS9_RsH4hrg/"
+    },
+    "repository": {
+        "url": "https://github.com/ohmiler/milerdark-vscode-theme.git",
+        "type": "git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "milerdark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/milerdark-color-theme.json"
+            }
+        ]
+    }
+}

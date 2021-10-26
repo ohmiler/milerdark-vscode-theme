@@ -8,7 +8,7 @@
 		"titleBar.inactiveBackground": "#222",
 		"statusBar.background": "#1a1a1a",
 		"statusBarItem.hoverBackground": "#111",
-		"editor.background": "#222",
+		"editor.background": "#222222",
 		"editorCursor.foreground": "#43e3ff",
 		"editorGutter.background": "#222",
 		"activityBar.background": "#1a1a1a",
@@ -57,7 +57,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -84,10 +84,11 @@
 			"scope": [
 				"keyword",
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"keyword.control.from"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FC92E3"
 			}
 		},
 		{
@@ -107,7 +108,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#E1F4F3"
 			}
 		},
 		{
@@ -118,7 +119,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ffda90"
 			}
 		},
 		{
@@ -131,7 +132,17 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#43e3ff"
+			}
+		},
+		{
+			"name": "Import, Export",
+			"scope": [
+				"keyword.control.import",
+				"keyword.control.export"
+			],
+			"settings": {
+				"foreground": "#43e3ff"
 			}
 		},
 		{
@@ -140,10 +151,35 @@
 				"meta.block variable.other"
 			],
 			"settings": {
+				"foreground": "#E1F4F3"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.flow",
+				"punctuation.definition.variable"
+			],
+			"settings": {
 				"foreground": "#f07178"
 			}
 		},
 		{
+			"scope": [
+				"punctuation.definition.variable",
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.assignment"
+			],
+			"settings": {
+				"foreground": "#909090"
+			}
+		},
+	  	{
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
@@ -181,7 +217,32 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#fff"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite"
+			],
+			"settings": {
+				"foreground": "#43e3ff"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.alias"
+			],
+			"settings": {
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double",
+				"string.quoted.single"
+			],
+			"settings": {
+				"foreground": "#ffda90"
 			}
 		},
 		{
@@ -270,7 +331,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#92ea9e"
 			}
 		},
 		{
@@ -287,10 +348,11 @@
 		{
 			"name": "CSS Classes",
 			"scope": [
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name.class",
+				"entity.other.attribute-name.id",
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#43e3ff"
 			}
 		},
 		{

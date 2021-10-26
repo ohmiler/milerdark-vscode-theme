@@ -1,13 +1,10 @@
-# README
-## This is the README for your extension "milerdark"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Milerdark VScode Theme
+## comfortable, easy on the eyes
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Installation
+---
+1. Open the Extensions sidebar in VS Code. View → Extensions
+2. Search for milerdark, choose "milerdark" by milerdev
+3. Click Install to install it
+4. Navigate to File > Preferences > Color Theme > milerdark
+![milerdark theme](picture/milerdark-theme.png)

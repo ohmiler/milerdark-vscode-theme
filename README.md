@@ -9,8 +9,9 @@
 4. Navigate to File > Preferences > Color Theme > milerdark
 ![milerdark theme](picture/milerdark-vsc-theme-v3-1.png)
 ![milerdark theme](picture/milerdark-vsc-theme-v3-2.png)
+![milerdark theme](picture/milerdark-vsc-theme-v3-3.png)
 --
-# Develop by Patiphan Phengpao (Miler)
+# Developed by Patiphan Phengpao (Miler)
 ![handsome](picture/miler.jpeg)
 # 💻 [Youtube Channel](https://www.youtube.com/c/PatiphanPhengpao)
 # 👓 [Website](https://patiphannn.com/)

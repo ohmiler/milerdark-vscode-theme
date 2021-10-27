@@ -3,7 +3,7 @@
     "displayName": "milerdark",
     "description": "comfortable, easy on the eyes",
     "publisher": "milerdev",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "engines": {
         "vscode": "^1.61.0"
     },

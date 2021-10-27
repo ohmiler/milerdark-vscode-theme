@@ -47,13 +47,14 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#7dc465"
+				"foreground": "#6ea15d"
 			}
 		},
 		{
 			"name": "Parameter",
 			"scope": [
 				"variable.parameter",
+				"meta.function.parameters.php"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -139,6 +140,7 @@
 				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
+				"entity.name.type.class.php"
 			],
 			"settings": {
 				"foreground": "#e96f6f"
@@ -179,17 +181,10 @@
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other",
+				"punctuation.definition.variable.php",
 			],
 			"settings": {
 				"foreground": "#43e3ff"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.definition.variable",
-			],
-			"settings": {
-				"foreground": "#FF5370"
 			}
 		},
 		{
@@ -250,6 +245,9 @@
 				"variable.other.php",
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
+				"variable.other.global.php",
+				"variable.language.this.php",
+				"variable.other.global.safer.php",
 			],
 			"settings": {
 				"foreground": "#43e3ff"
@@ -327,16 +325,6 @@
 			}
 		},
 		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
-			}
-		},
-		{
 			"name": "entity.name.method.js",
 			"scope": [
 				"entity.name.method.js",
@@ -359,8 +347,8 @@
 				"keyword.control.return.php",
 				"keyword.control.switch.php",
 				"keyword.control.case.php",
-				"variable.other.global.safer.php",
-				"variable.other.global.php"
+				"keyword.control.exception.php",
+				"keyword.control.exception.catch.php"
 			],
 			"settings": {
 				"foreground": "#82AAFF"
